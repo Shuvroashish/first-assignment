@@ -1,7 +1,7 @@
 
 
 body {
-    font-family: 'Raleway', sans-serif;
+    /* font-family: 'Raleway', sans-serif; */
     background-color: #f7f7f7;
     color: #333; 
     line-height: 1.6;
@@ -89,4 +89,158 @@ nav {
     background-color: #4E47FF;
 }
 
-/*section 2*/
+/*section 1 style*/
+.action{
+  display: flex;
+  justify-content: space-between;
+  background: #FFFFFF;
+ padding: 116px 160px 140px;
+  
+}
+.action-t{
+  padding-right: 45px;
+}
+
+.image-mini1{
+     max-width: 100%; 
+    height: auto; 
+    border-radius: 15%;
+    margin-left: 280px;
+}
+
+.action-t{
+  color: #252432;
+}
+
+/* Users Section */
+  .users {
+    padding: 50px 80px;
+    background-color: rgba(78, 71, 255, 0.1);
+    max-width: 1150px;
+    max-height: 340px;
+    border-radius: 24px;
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    
+  }
+  .users h2{
+    text-align: center;
+  }
+
+.data {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;  
+  }
+
+  .data div {
+    text-align: center;
+  }
+
+  .data div h3{
+    color: #4E47FF;
+    font-size: 60px;
+    font-weight: bold;
+   
+    margin: 0 0 10px;
+  }
+
+   /* Feedback */
+  .feedback {
+    padding: 60px;
+  }
+
+/* Base styles */
+body {
+  margin: 0;
+  color: #333;
+  background-color: white;
+}
+
+/* result section */
+.feedback {
+  padding: 60px 20px;
+  text-align: center;
+  background-color:white;
+}
+
+.feedback h2 {
+  font-size: 28px;
+  margin-bottom: 40px;
+  color: #2c2c2c;
+}
+
+
+.feedback-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.feedback-review {
+  background-color: white;
+  border-radius: 12px;
+  padding: 20px;
+  width: 300px;
+  text-align: left;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+  transition: 0.2s;
+}
+ 
+
+/* Stars */
+.stars {
+  width: 20px;
+  margin-bottom: 10px;
+}
+
+/* Reviewer section */
+.reviewer {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.reviewer .avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 12px;
+}
+ /* information */
+  .information {
+    padding: 60px 80px;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+  }
+  form {
+    width: max-content;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  form h4{
+    text-align: left;
+  }
+
+  form input, form textarea {
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 400px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+  }
+  .information-title{
+    font-weight: 160px;
+    padding-top: 150px;
+    height: 232px;
+    width: 528px;
+}
